@@ -33,11 +33,11 @@ ul.nav {
 }
 
 .nav li a:hover:not(.active) {
-  background-color: yellow;
+  background-color: rgb(209, 120, 245);
 }
 
 .nav .active {
-  background-color: red;
+  background-color: purple;
 }
 
 h1 {
