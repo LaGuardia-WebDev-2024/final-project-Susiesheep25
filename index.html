@@ -1,15 +1,15 @@
 <!-- Final Project
 Requirements
-[  ] Customized HTML Page #1
-[  ] Customized HTML Page #2 
-[  ] Customized HTML Page #3
-[  ] Customized HTML Page #4
+[  yes] Customized HTML Page #1
+[yes  ] Customized HTML Page #2 
+[ yes ] Customized HTML Page #3
+[ yes ] Customized HTML Page #4
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Google Font
 [ no ] Feature 2 - Upload a Font
 [ no ] Feature 3 - Include jQuery
-[ no ] Feature 4 - Embed Code from Spotify/Google Docs/YouTube
+[ yes] Feature 4 - Embed Code from Spotify/Google Docs/YouTube
 [ no ] Feature 5 - Customized HTML Page #5
 -->
 
@@ -25,7 +25,7 @@ Select ONE Additional Feature to Add
       https://www.w3schools.com/howto/howto_css_parallax.asp*/
       .parallax {
         /* The image used */
-        background-image: url("https://cdn.glitch.global/66249578-345e-4e9c-8fac-cabe98f682e4/image0.jpeg?v=1747657278943");
+        background-image: url("https://cdn.glitch.global/898a7cf8-9a3d-46cf-aac1-fb70bfe91434/IMG_5096.JPG?v=1747749648342");
 
         /* Set a specific height */
         min-height: 500px;
@@ -37,74 +37,77 @@ Select ONE Additional Feature to Add
         background-size: cover;
       }
       .textblock {
-        min-height: 500px;
-        background-color: black;
-        color: white;
+        min-height: 250px;
+        background-color: #333333;
+        color: black;
+  
       }
       .parent-flex {
         display: flex;
       }
       .child-flex {
-        background-color: green;
+        background-color: rgb(209, 120, 245);
         margin: 30px;
         padding: 10px;
         text-align: justify;
+        width: 50%
+    
       }
       .para-1{
         display: flex;
         align-items: center;
+        border: 2px solid purple;
+        border-radius: 12px;
+        padding: 20px;
+      }
+      
+      h1{
+        color:rgb(130, 10, 126);
       }
     </style>
   </head>
   <body>
     <!-- ⬆⬆⬆⬆ Nav Bar -->
-    <ul>
-      <li><a class="active" href="index.html">Home</a></li>
-      <li><a href="aboutme.html">About Me</a></li>
-      <li><a href="art.html">Art</a></li>
-      <li><a href="resume.html">Resume</a></li>
-      <li style="float: right">
-        <a target="_blank" href=""
-          ><img
-            src="https://www.getfocused.no/wp-content/uploads/2022/09/White-YouTube-Logo-Transparent.png"
-            style="width: 25px; margin: -5px"
-        /></a>
-      </li>
-      <li style="float: right">
-        <a target="_blank" href=""
-          ><img
-            src="https://img.icons8.com/win10/512/FFFFFF/instagram-new.png"
-            style="width: 25px; margin: -5px"
-        /></a>
-      </li>
+    <ul class="nav">
+      <li style="font-family: cursive"><a class="active" href="index.html">Home</a></li>
+      <li style="font-family: cursive"><a href="aboutme.html">Costumes</a></li>
+      <li style="font-family: cursive"><a href="art.html">Hair and Makeup</a></li>
+      <li style="font-family: cursive"><a href="resume.html">Resume</a></li>
+      
     </ul>
 
     <!-- ⬇⬇⬇⬇⬇⬇ Main Page Content -->
-    <h1>Ms. Hall | Web Dev 2024-2025</h1>
+    <h1 style="font-family:verdana"> Technical Theatre Portfolio 🪡</h1>
     <div class="parallax"></div>
 
     <div class="textblock parent-flex">
       <div class="child-flex para-1">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
+        <p style="font-family: cursive"> 
+          
+          
+        <br >Hello, I’m Susana a current senior at Lag and here's a little bit about me! I major in technical theatre and spend most of my time making costumes, doing hair and makeup, or painting scenic pieces for the school productions.<br> 
+          
+<br >I enjoy going on hikes, roller coasters, eating ice cream, going to concerts, making little crafts, and trying new food.
+<br>
+
+        <br> The picture in the background is of me putting a wig on Suli for the opening scene of <em>Into The Woods.</em> <br>
         </p>
       </div>
-      <div class="child-flex">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque
-          faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi
-          pretium tellus duis convallis. Tempus leo eu aenean sed diam urna
-          tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas.
-          Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut
-          hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent
-          per conubia nostra inceptos himenaeos.
-        </p>
+      <div class="child-flex para-1">
+        <div>
+          
+        <p style="font-family:verdana">
+          My Top 5 favorite things:
+      <ul>
+ <li style="font-family:verdana">Chocolate (I love anything chocolate)</li>
+<li style="font-family:verdana">Pop music</li>
+<li style="font-family:verdana">Dogs</li>
+<li style="font-family:verdana">Comedy and horror movies</li>
+<li style="font-family:verdana">Spending time with my family </li>
+        </ul>
+    
+            </p>
+        </div>
       </div>
     </div>
   </body>
